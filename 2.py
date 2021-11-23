@@ -1,8 +1,6 @@
 #варіант 8
 import requests
 from bs4 import BeautifulSoup
-from array import *
-import csv
 import pylab
 
 r = requests.get('https://travel.24tv.ua/kudi-poyihati-shhob-vidchuti-silu-prirodi-spisok-lokatsiy-harakterom_n1791662')
